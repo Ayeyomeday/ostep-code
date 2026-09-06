@@ -22,3 +22,12 @@ int main() {
     close(file);
     return 0;
 }
+
+/*********************************************
+   Your name: Ayomide Oludairo
+   Question 2: 
+
+   Both the child and parent write into the
+   created file. The OS scheduler decides 
+   which process gets to run first.
+*********************************************/
