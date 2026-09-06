@@ -19,8 +19,7 @@ int main() {
             rc, rc_wait, (int) getpid());
     } else {
         printf("goodbye\n");
-                int rc_wait = waitpid(rc, NULL, 0);
-        printf("hello\n");
+        int rc_wait = waitpid(rc, NULL, 0);
         printf("parent of %d (rc_wait:%d) (pid:%d)\n", 
             rc, rc_wait, (int) getpid());
     }
