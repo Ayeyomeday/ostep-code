@@ -19,3 +19,11 @@ int main() {
 
     return 0;
 }
+
+/*********************************************
+   Your name: Ayomide Oludairo
+   Question 4: 
+
+    The different versions of exec() allow for
+    variability in inputing paths and arguments.
+*********************************************/
